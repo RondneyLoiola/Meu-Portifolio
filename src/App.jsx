@@ -10,6 +10,7 @@ import Projeto6 from './assets/6.jpg';
 import Projeto7 from './assets/7.jpg';
 import Projeto8 from './assets/8.jpg';
 import Projeto9 from './assets/9.jpg';
+import Projeto10 from './assets/10.jpg';
 
 export default function Portfolio() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -96,12 +97,21 @@ export default function Portfolio() {
       imagem: Projeto4,
       github: "https://github.com/RondneyLoiola/LuxeBristo",
       demo: "https://luxe-bistro.netlify.app/"
+    },
+    {
+      id: 10,
+      titulo: "Site para Advogados",
+      descricao: "Modelo de Landing Page para Advogados.",
+      tecnologias: ["React", "Tailwind", "Vite"],
+      imagem: Projeto10,
+      github: "https://github.com/RondneyLoiola/advogado-landingpage",
+      demo: "https://advlandingpage-rl.netlify.app/"
     }
   ];
 
   const habilidades = [
     { categoria: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Styled Components"] },
-    { categoria: "Backend", items: ["Node.js", "Express", "REST APIs", "GraphQL"] },
+    { categoria: "Backend", items: ["Node.js", "Express", "REST APIs", "Sequelize"] },
     { categoria: "Database", items: ["MongoDB", "PostgreSQL"] },
     { categoria: "Ferramentas", items: ["Git", "Docker"] }
   ];
