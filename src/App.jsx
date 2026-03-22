@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Github, Linkedin, Mail, Menu, X } from 'lucide-react';
-import Me from './assets/eu.jpeg';
+import Me from './assets/eu.jpg';
 import Projeto1 from './assets/1.jpg';
 import Projeto2 from './assets/2.jpg';
 import Projeto3 from './assets/3.jpg';
