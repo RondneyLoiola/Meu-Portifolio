@@ -14,7 +14,7 @@ import Projeto10 from './assets/10.jpg';
 
 export default function Portfolio() {
   const [menuAberto, setMenuAberto] = useState(false);
-  const [projetoSelecionado, setProjetoSelecionado] = useState(null);
+  const [_projetoSelecionado, setProjetoSelecionado] = useState(null);
 
   const projetos = [
     {
@@ -188,7 +188,7 @@ export default function Portfolio() {
             <a href="https://www.linkedin.com/in/rondneyloiola/" className="text-gray-400 hover:text-emerald-400 transition">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:OYi1f@example.com" className="text-gray-400 hover:text-emerald-400 transition">
+            <a href="mailto:rondneyloiola1@gmail.com" className="text-gray-400 hover:text-emerald-400 transition">
               <Mail className="w-6 h-6" />
             </a>
           </div>
@@ -207,7 +207,7 @@ export default function Portfolio() {
                 <h2 className='text-white text-xl w-full leading-relaxed'>
                   Olá, sou <span className='text-emerald-400'>Rondney Oliveira Loiola</span>, tenho 18 anos e sou desenvolvedor <span className='text-emerald-400'>Full-Stack</span> em formação. Me especializo em <span className='text-emerald-400'>HTML, CSS, JavaScript, React, Node.js e TypeScript </span> através do Dev Club.
                   Apaixonado por tecnologia, dedico-me diariamente ao aprendizado e à criação de projetos que resolvem problemas reais. Busco minha primeira oportunidade na área de TI para crescer profissionalmente e contribuir com soluções criativas e eficientes.
-                  <span className='text-emerald-400'> Contato: orondney1@gmail.com</span>
+                  <span className='text-emerald-400'> Contato: rondney.loiola1@gmail.com</span>
                 </h2>
             </div>
           </div>
